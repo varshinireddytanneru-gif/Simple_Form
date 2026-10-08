@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    <form action="thanku.html" method="get">
+    <fieldset>
+        <legend>personal details</legend>
+        <h1>course registration form</h1>
+        <table>
+            <tr>
+                <td><label>First Name</label></td><td><input type="text" name="FN" placeholder="ex:chinni" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Last Name</label></td><td><input type="text" name="LN" placeholder="ex:Reddy" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>Mobile Number</label></td><td><input type="mobile"name="mob" placeholder="9154452477" size="15"></td>
+            </tr>
+            <tr>
+                <td><label>email id</label></td><td><input type="email"name="email"  size="15" placeholder="ex:chinni@123"></td>
+            </tr>
+            
+            <tr>
+                <td><label>password</label></td><td><input type="password" name="pwd" size="15" placeholder="min 7 characters"></td>
+            </tr>
+            <tr>
+                <td>
+                   <label> confirm password</label> 
+                </td><td><input type="pwd" name="cpwd" size="15" placeholder="min 7 characters"></td>
+            </tr>
+            <tr>
+                <td>
+                    
+    <label>DOB</label>
+                </td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td><td><input type="radio" name="gender" value="M"> Male 
+    <input type="radio" name="gender" value="F"> Female </td>
+            </tr>
+            <tr>
+                <td><label>select country</label></td><td> <select>
+        <option value="INDIA">India</option>
+         <option value="GERMANY">Germany</option>
+          <option value="USA">USA</option>
+
+    </select></td>
+            </tr>
+            <tr>
+                <td><lable>upload picture</lable></td><td><input type="file" name="pic"></td>
+            </tr>
+
+        </table>
+        
+    
+    <input type="reset" name="reset">
+
+    </fieldset>
+    <fieldset>
+        <legend>course details</legend>
+        <table>
+            <tr>
+                <td><label>select course</label></td><td><select>
+            <option>java full stack</option>
+            <option>python full stack</option>
+            <option>Merstack</option>
+
+        </select></td>
+        <tr>
+            <td><label>Delivary mode</label></td><td><input type="checkbox" value="ONLINE">online<input type="checkbox" type="OFFLINE">offline</td>
+        </tr>
+         </table>
+        
+
+        <p>comments</p>
+       <textarea rows="4" cols="40"></textarea><br>
+       <!-- <img src="submit.jpg" height="65" width="65" type="input"> -->
+        <input type="submit" value="submit">
+
+    </fieldset>
+
+    </form>
+    
+
+
+
+
+</body>
+</html>
